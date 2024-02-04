@@ -3,6 +3,7 @@ export class UsersDTO {
     age: number
     birthDate: String
     gender: String
+    id:string
 
     constructor(name: String,
         age: number,
