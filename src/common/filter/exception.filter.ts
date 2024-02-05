@@ -15,6 +15,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
                 statusCode: status,
                 timestamp: new Date().toISOString(),
                 path: request.url,
+                message:"Error encountered while processing request"
             });
     }
 }
